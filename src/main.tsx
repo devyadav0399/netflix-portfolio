@@ -8,7 +8,6 @@ const router = createBrowserRouter([
     path: "/",
     element: <Browse />,
   },
-  {},
 ]);
 
 createRoot(document.getElementById("root")!).render(
