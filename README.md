@@ -53,7 +53,7 @@ Follow these steps to get a local copy of the project up and running on your mac
     yarn install
     ```
 
-3.  **Create a `.env` file in the `frontend` directory:**
+3.  **Create a `.env` file in the project root:**
 
     ```
     REACT_APP_API_URL=http://localhost:5000/api # Or your backend API base URL
@@ -62,9 +62,9 @@ Follow these steps to get a local copy of the project up and running on your mac
 4.  **Start the frontend development server:**
 
     ```bash
-    npm start
+    npm run dev
     # or
-    yarn start
+    yarn dev
     ```
 
     The frontend application should now open in your browser, typically at `http://localhost:3000`.
