@@ -4,3 +4,12 @@
 @theme {
   --font-sans: "Martel Sans", sans-serif;
 }
+
+/* Ensure any navigation bar remains fixed at the top */
+nav {
+  @apply fixed top-0 left-0 right-0 z-50;
+}
+
+main {
+  padding-top: 4rem; /* offset for the fixed navbar height */
+}
